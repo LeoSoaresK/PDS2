@@ -7,11 +7,14 @@ make: *** No rule to make target 'all'.  Stop.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Aug 12 01:19:39 2022
+# Make data base, printed on Fri Aug 12 02:37:16 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -35,7 +38,9 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14436_QCUIEBKBOHQWYXHM
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1200_EFKCIHVSZHDVMGRZ
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -64,7 +69,8 @@ ONEDRIVE = C:\Users\Leo\OneDrive
 CURDIR := d:/Users/Leo/Desktop/PDS2
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# automatic
+# automat 
+ic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
 PROGRAMFILES = C:\Program Files (x86)
@@ -81,7 +87,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14436
+VSCODE_PID = 1200
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -89,8 +95,7 @@ VSCODE_PID = 14436
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":tr 
-ue}
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := i686-w64-mingw32
 # environment
@@ -112,7 +117,8 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Microsoft VS C 
+ode\bin
 # environment
 COMPUTERNAME = DESKTOP-0AREGOU
 # default
@@ -136,14 +142,14 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+ORIGINAL_XDG_CURRENT_DESKTOP = un 
+defined
 # environment
 USERDOMAIN = DESKTOP-0AREGOU
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
-OS = Windows_N 
-T
+OS = Windows_NT
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -163,10 +169,10 @@ HOMEDRIVE = C:
 # environment
 PROCESSOR_ARCHITECTURE = x86
 # environment
+ 
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-COMMONPROGRAMFILES(X86) = C:\Program F 
-iles (x86)\Common Files
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
@@ -184,14 +190,14 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-pre 
-reqs archives jobserver output-sync
+.FEATURES := 
+ target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync
 # environment
 PROCESSOR_REVISION = 0200
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=87/1024=8%, Rehash=0, Collisions=8/110=7%
+# Load=89/1024=9%, Rehash=0, Collisions=9/112=8%
 
 # Pattern-specific Variable Values
 
@@ -199,15 +205,15 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key d:/Users/Leo/Desktop/PDS2, mtime 1660277976): 11 files, no impossibilities.
+# . (key d:/Users/Leo/Desktop/PDS2, mtime 1660282614): 27 
+ files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 27 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
- 
 # Files
 
 # Not a target:
@@ -227,14 +233,14 @@ all:
 makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has been updated.
+#  File has been upd 
+ated.
 #  Failed to be updated.
 
 # Not a target:
 makefile.mak:
 #  Implicit rule search has been done.
-#  File does not e 
-xist.
+#  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
 
@@ -253,12 +259,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 225 B / avg = 13 B
-# current buf: size = 8174 B / used = 225 B / count = 17 / avg = 13 B
+# strcache buffers: 1  
+(0) / strings = 33 / storage = 756 B / avg = 22 B
+# current buf: size = 8174 B / used = 756 B / count = 33 / avg = 22 B
 
-# strcache performance: lookups = 20 / hit rate = 15%
+# strcache performance: lookups = 36 / hit rate = 8%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Fri Aug 12 01:19:39 2022
+# Load=33/8192=0%, Rehash=0, Collisions=1/36=3%
+# Finished Make data base on Fri Aug 12 02:37:16 2022
 
  
